@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Today&#8217;s Carolinian &mdash; Archive</title>
+<meta name="description" content="A preserved archive of Today's Carolinian, the University of San Carlos student paper (2012–2019). Read the web archive or browse scanned print issues.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Today's Carolinian — Archive">
+<meta property="og:description" content="A preserved archive of the USC student paper (2012–2019).">
+<meta property="og:image" content="https://read.todayscarolinian.net/wp-content/uploads/2014/06/2-Main-Logo.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  @font-face{font-family:Titillium;src:url(assets/fonts/titillium-light-webfont.woff) format('woff');font-weight:300;font-style:normal;font-display:swap}
+  @font-face{font-family:Titillium;src:url(assets/fonts/titillium-lightitalic-webfont.woff) format('woff');font-weight:300;font-style:italic;font-display:swap}
+  @font-face{font-family:Titillium;src:url(assets/fonts/titillium-semibold-webfont.woff) format('woff');font-weight:600;font-style:normal;font-display:swap}
+
+  :root{--ink:#222;--red:#8f2323;--bg:#eaeaea;--text:#666;}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:Titillium,Arial,sans-serif; font-weight:300; line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;min-height:100vh;
+  }
+  a{color:var(--red);text-decoration:none}
+
+  .site-header{background:var(--ink);padding:34px 20px 30px;text-align:center}
+  .site-header .logo{max-width:340px;width:70%;height:auto;display:inline-block}
+  .site-header .tagline{color:rgba(255,255,255,.72);font-size:13px;letter-spacing:.02em;margin:12px 0 0}
+  .redbar{height:5px;background:var(--red)}
+
+  main{max-width:860px;width:100%;margin:0 auto;flex:1;padding:clamp(30px,5vw,56px) 20px 60px}
+  .intro{text-align:center;margin:0 auto 34px;max-width:640px}
+  .intro .eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:12px;color:var(--red);font-weight:600;margin:0 0 10px}
+  .intro h1{color:var(--ink);font-weight:600;font-size:clamp(24px,4.2vw,34px);line-height:1.15;margin:0 0 12px}
+  .intro p{margin:0;font-size:clamp(15px,2.4vw,17px)}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+  .door{
+    position:relative;overflow:hidden;min-height:410px;display:flex;text-decoration:none;
+    background:#222;border:1px solid #d5d5d5;box-shadow:0 1px 3px rgba(0,0,0,.1);
+    transition:transform .16s ease,box-shadow .16s ease;
+  }
+  .door .top{position:absolute;top:0;left:0;right:0;height:4px;background:var(--red);z-index:3}
+  .door .bg{position:absolute;inset:0;background-size:cover;background-position:top center;transform:scale(1.02);transition:transform .55s ease}
+  a.door:hover .bg{transform:scale(1.09)}
+  .door .veil{position:absolute;inset:0;
+    background:linear-gradient(to top,rgba(18,18,18,.95) 6%,rgba(18,18,18,.6) 48%,rgba(18,18,18,.26) 100%)}
+  .door .content{position:relative;z-index:2;margin-top:auto;padding:30px;color:#fff}
+  .door .kick{display:block;text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:600;color:#fff;opacity:.8;margin-bottom:10px}
+  .door h2{color:#fff;font-weight:600;font-size:26px;line-height:1.12;margin:0 0 10px}
+  .door p{color:rgba(255,255,255,.82);font-size:14.5px;line-height:1.5;margin:0 0 22px;max-width:40ch}
+  .door .btn{
+    display:inline-flex;align-items:center;gap:9px;background:var(--red);color:#fff;
+    font-weight:600;font-size:14px;letter-spacing:.02em;padding:12px 22px;
+    transition:background .15s ease,gap .15s ease;
+  }
+  .door .btn .arw{transition:transform .15s ease}
+  a.door:hover{transform:translateY(-3px);box-shadow:0 14px 30px -14px rgba(0,0,0,.5)}
+  a.door:hover .btn{background:#a82a2a;gap:14px}
+  a.door:hover .btn .arw{transform:translateX(4px)}
+  footer{background:#222;color:rgba(255,255,255,.6);text-align:center;font-size:13px;line-height:1.7;padding:26px 20px}
+  footer strong{color:#fff;font-weight:600}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <img class="logo" src="assets/WebLogo-white.png" alt="Today&#8217;s Carolinian">
+    <p class="tagline">Archive &middot; 2012&ndash;2019</p>
+  </header>
+  <div class="redbar"></div>
+
+  <main>
+    <div class="intro">
+      <p class="eyebrow">The USC Student Publication</p>
+      <h1>A preserved archive of Today&#8217;s Carolinian&#8217;s stories.</h1>
+      <p>Choose how you&#8217;d like to look back.</p>
+    </div>
+
+    <div class="cards">
+      <a class="door" href="https://read.todayscarolinian.net/">
+        <span class="top"></span>
+        <span class="bg" style="background-image:url(assets/read-preview.jpg);background-position:top right"></span>
+        <span class="veil"></span>
+        <span class="content">
+          <span class="kick">No. 01 &middot; Online</span>
+          <h2>Read the Web Archive</h2>
+          <p>Stories from the University of San Carlos student paper, 2012&ndash;2019 &mdash; news, features, literary, opinion, sports and more.</p>
+          <span class="btn">Start reading <span class="arw">&rarr;</span></span>
+        </span>
+      </a>
+
+      <a class="door" href="https://print.todayscarolinian.net/">
+        <span class="top"></span>
+        <span class="bg" style="background-image:url(assets/print-preview.jpg)"></span>
+        <span class="veil"></span>
+        <span class="content">
+          <span class="kick">No. 02 &middot; In Print</span>
+          <h2>Browse Print Issues</h2>
+          <p>Scanned magazines and newsletters &mdash; the physical print run, digitized.</p>
+          <span class="btn">Start browsing <span class="arw">&rarr;</span></span>
+        </span>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    A preserved, read-only archive &mdash; interactive features (login, search, comments, forms) are inactive.<br>
+    Kept online for everyone who made <strong>Today&#8217;s Carolinian</strong>. <em>Miss you guys.</em>
+  </footer>
+</body>
+</html>
